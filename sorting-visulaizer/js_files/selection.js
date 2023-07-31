@@ -11,7 +11,7 @@ async function selection(){
             ele[j].style.background = 'red';
 
             await waitforme(delay);
-            if(parseInt(ele[j].style.height) < parseInt(ele[min_index].style.heigth)){
+            if(parseInt(ele[j].style.height) < parseInt(ele[min_index].style.height)){
                 console.log('In if consdition height comparision');
 
                 if(min_index !== i){
